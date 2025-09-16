@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>India Cities Weather</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>🌤 India Weather (search or choose)</h2>
+
+    <input list="cities" id="city" placeholder="Type or select a city (e.g. Hyderabad)" />
+    <datalist id="cities"></datalist>
+
+    <div class="row">
+      <button id="getBtn">Get Weather</button>
+      <button id="showAllBtn">Show several (selected states)</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
